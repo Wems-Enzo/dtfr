@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+@font-face {
+    font-family: 'Yesterday Dream';
+    src: url('font/yesterday-dream.otf') format('otf');
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    background: #191919;
+}
+ /* tête de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 50px;
+}
+
+section.top-page {
+    background: url("../images/banniere.png");
+    background-size: cover;
+    background-position: top;
+    height: 60vh;
+    padding: 25px;
+}
+
+/* page de bienvenue */
+
+.landing-page {
+    text-align: center;
+    display: inline;
+}
+
+
+.big-title {
+    color: white;
+    font-family: 'Yesterday Dream';
+    font-size: 80px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 200px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* réseaux */
+.discord {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.discord-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+    border: 3px solid #7289da;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.discord-item:hover{
+    background: #7289da;
+    color: white;
+    box-shadow: 0px 8px 12px #131313;
+}
+
+.discord-icon {
+    display: block;
+    height: 100%;
+    font-size: 50px;
+    color: #7289da;
+    transition: 0.5s;
+}
+
+.discord-item:hover .discord-icon {
+    color: white;
+}
+
+/* Twitch */
+
+.twitch_button {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.twitch-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+    border: 3px solid #6441a5;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.twitch-item:hover{
+    background: #6441a5;
+    color: white;
+    box-shadow: 0px 8px 12px #131313;
+}
+
+.twitch-icon {
+    display: block;
+    height: 100%;
+    font-size: 50px;
+    color: #6441a5;
+    transition: 0.5s;
+}
+
+.twitch-item:hover .twitch-icon {
+    color: white;
+}
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal_content {
+    background-color: rgba(25, 25, 25, .9);
+    padding: 1.5em 2em;
+    width: 1200px;
+    height: 180px;
+    max-width: 90%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.modal_close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+.twitch {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 1200px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.twitch a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Arbil Fatface, cursive;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #6441a5;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 250px;
+    border: 3px solid #6441a5;
+    border-radius: 50px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.twitch a:hover{
+    color: white;
+    background-color: #6441a5;
+    box-shadow: 0px 8px 12px #131313;
+}
+
+.twitch a:active{
+    color: #6441a5;
+    background-color: white;
+}
+
+/* pied de page */
+
+footer {
+    text-align: center;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
