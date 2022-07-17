@@ -29,10 +29,10 @@ body {
         color: white;
         text-align: center;
         font-family: 'Yesterday Dream';
-        padding-top: 20px;
+        margin: 0;
+        padding-top: 10px;
         font-size: 40px;
-        word-spacing: 10px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
     /* réseaux */
@@ -92,48 +92,6 @@ body {
         height: 100%;
         font-size: 50px;
         color: #6441a5;
-    }
-
-    .twitch-item:hover .twitch-icon {
-        color: white;
-    }
-
-    .modal {
-        visibility: hidden;
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: .3s;
-    }
-
-    .modal:target {
-        visibility: visible;
-        opacity: 1;
-    }
-
-    .modal_content {
-        background-color: rgba(25, 25, 25, .9);
-        padding: 1.5em 2em;
-        width: 1200px;
-        height: 180px;
-        max-width: 90%;
-        border-radius: 10px;
-        position: relative;
-    }
-
-    .modal_close {
-        position: absolute;
-        right: 20px;
-        top: 10px;
-        text-decoration: none;
-        color: grey;
-        font-size: 20px;
     }
 
     .twitch {
@@ -174,10 +132,10 @@ body {
         color: white;
         text-align: center;
         font-family: 'Yesterday Dream';
-        padding-top: 20px;
-        font-size: 40px;
-        word-spacing: 10px;
-        letter-spacing: 2px;
+        padding-top: 10px;
+        margin: 0;
+        font-size: 60px;
+        letter-spacing: 1px;
     }
 
     /* réseaux */
@@ -237,48 +195,6 @@ body {
         height: 100%;
         font-size: 50px;
         color: #6441a5;
-    }
-
-    .twitch-item:hover .twitch-icon {
-        color: white;
-    }
-
-    .modal {
-        visibility: hidden;
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: .3s;
-    }
-
-    .modal:target {
-        visibility: visible;
-        opacity: 1;
-    }
-
-    .modal_content {
-        background-color: rgba(25, 25, 25, .9);
-        padding: 1.5em 2em;
-        width: 1200px;
-        height: 180px;
-        max-width: 90%;
-        border-radius: 10px;
-        position: relative;
-    }
-
-    .modal_close {
-        position: absolute;
-        right: 20px;
-        top: 10px;
-        text-decoration: none;
-        color: grey;
-        font-size: 20px;
     }
 
     .twitch {

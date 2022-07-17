@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+@font-face {
+    font-family: 'Yesterday Dream';
+    src: url('font/yesterday-dream.otf') format('otf');
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    background: #191919;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Yesterday Dream';
+    margin: 0;
+    padding-top: 20px;
+    font-size: 60px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.twitch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.twitch a {
+    text-align: center;
+    font-family: Arbil Fatface, cursive;
+    font-weight: 100;
+    padding-top: 5px;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    color: #6441a5;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 250px;
+    border: 3px solid #6441a5;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
